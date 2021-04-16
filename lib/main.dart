@@ -11,10 +11,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.deepOrangeAccent,
       ),
-      home: RandomWords(),
+      home:  RandomWords(),
     );
   }
 }
+
 
 
 class RandomWords extends StatefulWidget {
